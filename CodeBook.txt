@@ -1,0 +1,14 @@
+Code book for cleaning data
+Data was obtained from the following website 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+and the data was downloaded from the following zip file 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The data represent 561 metabolic measurements taken with Samsung Galaxy S Smartphone from participants while they were participating in the following activities: standing, laying down, sitting, walking, walking upstairs, or walking downstairs.  
+The raw data lacked column and row names.  The column names represent the metabolic measurement and the row names represent the activity (walking, sitting, etc). Therefore, the column names and the row names were bound to the data.
+The raw data had also been split into test and training data, and for this assignment these two data sets were bound together.
+We were only interested in the mean and standard deviation of each variable so we selected the 79 (of 561) measurements that contained those metrics.
+Reference of raw data:
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012.  
+
+
+
